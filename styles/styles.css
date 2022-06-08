@@ -1,0 +1,351 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;1,300&family=Koulen&family=PT+Sans+Narrow&family=Roboto:wght@100&display=swap');
+@font-face {
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     src: url("../assets/tipografia-Portafolio/@import ");
+} 
+
+
+/* HEADER */
+
+
+header {
+     position: fixed;
+     background: transparent;
+     background-color: #150050;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 1.5rem 0;
+}
+
+header ul li a {
+     color: #EEF2F5;
+}
+header ul li a.active {
+     color: #eda64f;
+}
+.logo {
+     color: #DEEEEA;
+     font-size: 30px;
+     font-weight: bold;
+}
+@media (max-width:700px ) {
+     header {
+          display: none;
+     }
+}
+
+
+/* MAIN-SECTION */
+
+
+.main-section {
+     height: 100vh;
+     background-image: url("https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901_960_720.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #eda64f;
+}
+.main-title {
+     width: 50%;
+     text-align: center;
+     font-size: 1.5rem; 
+     padding: 15px;
+     line-height: 5rem;
+     border-radius: 15px;
+     background-color: rgba(0, 0, 0, 0.1);
+}
+.main-title h2 {
+     font-weight: 20rem;
+     font-size: 2rem;
+     color:#ff5d11 ;
+}
+.main-title h1 {
+     font-size: 4rem;
+     color: #fdad00;
+}
+.main-title h1 span {
+     color: #ff8e04;
+     
+}
+nav.social-nav ul {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 50%;
+     margin: auto;
+     border-radius: 20px;
+     background-color: rgba(0, 0, 0, 0.5);
+}
+nav.social-nav ul li {
+     width: 20%;
+}
+nav ul li a img {
+     max-width: 80%;
+}
+
+
+/*ABOUT SECTION */
+
+
+.about {
+     padding: 4rem;
+}
+.container-about {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.about-info  {
+     width: 45%;
+}
+.img-about img {
+     max-width: 100%;
+}
+.img-about {
+     max-width: 45%;
+}
+.about-info p:first-child {
+     color: #ff5d11 ;
+     text-transform: uppercase;
+     letter-spacing: 10px;
+}
+.about-info h2 {
+     font-size: 2.5rem;
+     padding: 5px;
+     margin:1rem;
+     color:#DEEEEA;
+     background-color: #fb6722;
+     display: inline-block;
+}
+.about-info__p{
+     color: #6a6a6a;
+     line-height: 1rem;
+     font: bold;
+     margin: 10px;
+     text-align: justify;
+}
+.about-buttons {
+     padding: 2rem 0;
+}
+.about-buttons a {
+     padding: 0.8rem 2rem;
+     border-radius: 20px;
+     margin-left: 10px;
+}
+.about-buttons a:nth-child(1) {
+     background-color: #fb6722;
+     color: #DEEEEA;
+     transition: all .2s ease;
+}
+.about-buttons a:nth-child(1):hover {
+     background-color: #fff;
+     color: #FF5403;
+     border:1px solid #FF5403 ;
+}
+.about-buttons a:nth-child(2) {
+     background-color: #fff;
+     color: #FF5403;
+     border:1px solid #FF5403 ;
+}
+.about-buttons a:nth-child(2):hover {
+     background-color: #fb6722;
+     color: #DEEEEA;
+     transition: all .2s ease;
+}
+
+
+
+/* PARALLAX */
+
+
+.parallax {
+     height: 60vh;
+     background-color: #EEF2F5;
+     background-image: url(/styles/img/main-section.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #FF5403;
+}
+
+.parallax-content {
+     width: 100%;
+     height: 100%;
+     color: #DEEEEA;
+     background-color: rgba(0, 0, 0, 0.3);
+     font-size: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+
+/*SKILLS */
+
+
+.skills-container {
+     background-color: #3d352c; 
+     display: flex;
+     justify-content: space-between;
+}
+
+.education, 
+.expirience {
+     width: 25%;
+}
+.my-skills{
+     width: 40%;
+}
+.education h3,
+.expirience h3 , 
+.my-skills h3 {
+     font-size: 1.5rem;
+     letter-spacing: 7px;
+     padding: 10px;
+}
+
+.education h5,
+.expirience h5 , 
+.my-skills h5 {
+     font-size: 1rem;
+     letter-spacing: 4px;
+     padding: 10px;
+     font-family: 'PT Sans Narrow', sans-serif;
+}
+.education p,
+.expirience p, 
+.my-skills p {
+     font-size: 0.8rem;
+     padding: 5px 20px;
+     font-family: 'PT Sans Narrow', sans-serif;
+     color:#ff5d11;
+}
+
+
+/*HELPERS */
+
+
+.container {
+     width: 80%;
+     margin: auto;
+}
+.bar {
+     margin-top:10px ;
+     background-color: rgba(0, 0, 0, 0.4);
+     
+}
+/* .total-bar {
+     margin-top: 10px;
+     background-color: rgba(0, 0, 0, 0.4);
+     height: 5px;
+     position: relative;
+} */
+.progres-bar-1 {
+     background-color: #fb6722;
+     height: 5px;
+     width: 80%;
+}
+.progres-bar-2 {
+     background-color: #fb6722;
+     height: 5px;
+     width: 60%;
+}
+.progres-bar-3 {
+     background-color: #fb6722;
+     height: 5px;
+     width: 70%;
+}
+.progres-bar-4 {
+     background-color: #fb6722;
+     height: 5px;
+     width: 60%;
+}
+
+
+/* PORTAFOLIO */
+
+
+.portafolio {
+     margin-top: 50px;
+     margin-bottom: 50px;
+     
+}
+.card-portafolio {
+     position: relative;
+}
+.card-portafolio:hover .opacity-cover {
+     opacity: 1;
+}
+.card-portafolio:hover .opacity-cover h5 {
+     transform: translateY(0);
+}
+.card-portafolio:hover .opacity-cover p {
+     transform: translateY(0);
+}
+.card-portafolio img {
+     max-width: 100%;
+}
+
+.opacity-cover {
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     position: absolute;
+     top:0%;
+     right: 0%;
+     background-color: rgba(255, 255, 255, 0.9);
+     opacity: 0;
+     object-fit: cover;
+     transition: all 0.3s ease;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #fdad00;
+}
+.opacity-cover h5 {
+     transform: translateY(-15px);
+     transition: all 0.5s ease;
+}
+.opacity-cover p {
+     transform: translateY(15px);
+     transition: all 0.3s ease;
+}  
+
+@media ( max-width: 700px) {
+     .container-about {
+          flex-direction: column;
+     }
+     .about-info  {
+          width: 100%;
+     }
+     
+     .img-about {
+          max-width: 100%;
+     }
+
+}
+@media ( max-width: 700px) {
+     .about {
+          padding: 1rem;
+     }
+     .about-buttons {
+          display: flex;
+          flex-direction: column;
+     }
+}
+
+/* SERVICES */
+
+
