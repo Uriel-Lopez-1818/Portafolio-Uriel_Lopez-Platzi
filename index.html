@@ -20,18 +20,18 @@
             </div>
 
             <ul class="d-flex col-6 d-flex justify-between align-center" >
-                <li class="col-2" ><a href="" class="active">  Home        </a></li>
-                <li class="col-2" ><a href="">  About        </a></li>
-                <li class="col-2" ><a href="">  Services    </a></li>
-                <li class="col-2" ><a href="">  Portafolio  </a></li>
-                <li class="col-2" ><a href="">  Blog        </a></li>
-                <li class="col-2" ><a href="">  Contact     </a></li>
+                <li class="col-2" ><a href="#" class="active  item" >  Home        </a></li>
+                <li class="col-2" ><a href="#"  class="item">  About        </a></li>
+                <li class="col-2" ><a href="#"  class="item">  Services    </a></li>
+                <li class="col-2" ><a href="#"  class="item">  Portafolio  </a></li>
+                <li class="col-2" ><a href="#"  class="item">  Blog        </a></li>
+                <li class="col-2" ><a href="#"  class="item">  Contact     </a></li>
             </ul>
         </nav>
     </header>
     <!-- Fin de Header -->
     <!-- Inicio de seccion principal -->
-    <section class="main-section" >
+    <section class="main-section"  id="scroll-home">
         <div class="main-title" >
             <h2>Uriel Lopez</h2>
             <h1>Desarrollador Web <span>Back End</span></h1>
@@ -48,9 +48,9 @@
     <!-- Fin de seccion principal -->
 
     <!-- Inicio de Seccion-About -->
-        <section class="about">
+        <section class="about" id="about-section">
             <div class="container container-about">
-                <div class="img-about">
+                <div class="img-about" id="about-img">
                     <img src="/styles/img/michael-henry-5OyGRn_r9Y4-unsplash.jpg" alt="About Me">
                 </div>
             <div class="about-info">
@@ -250,7 +250,10 @@
 
     <section class="portafolio">
         <div class="container-portafolio ">
+
+
             
+
             <div class="card-portafolio w-3 h-1">
                 <div class="gallery-item">
                     <div class="image">
@@ -261,7 +264,7 @@
             </div>
             
                 
-            <div class="card-portafolio w-2 h-2">
+            <div class="card-portafolio w-2 h-1">
                 <div class="gallery-item">
                     <div class="image">
                         <img   class="img-portafolilo"  src="https://source.unsplash.com/800x900/?web" alt="web">
@@ -280,7 +283,7 @@
                 </div>
             </div>
                 
-            <div class="card-portafolio w-1 h-1">
+            <div class="card-portafolio w-1 h-2">
                 <div class="gallery-item">
                     <div class="image">
                         <img   class="img-portafolilo"   src="https://source.unsplash.com/800x900/?hacker" alt="hacker">
@@ -290,7 +293,7 @@
                 </div>
             </div>
                 
-            <div class="card-portafolio w-3 "> 
+            <div class="card-portafolio w-2 h-1 "> 
                 <div class="gallery-item">
                     <div class="image">
                         <img   class="img-portafolilo"  src="https://source.unsplash.com/800x900/?developer" alt="developer">
@@ -308,23 +311,14 @@
                 </div>
             </div>
 
-            <div class="card-portafolio w-3  ">
-                <div class="gallery-item">
-                    <div class="image">
-                        <img  class="img-portafolilo"   src="https://source.unsplash.com/800x900/?programming" alt="programing">
-                        <div   class="text" >Description7</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-portafolio w-1 h-1 ">
-                <div class="gallery-item">
-                    <div class="image">
-                        <img   class="img-portafolilo"  src="https://source.unsplash.com/800x900/?web-3" alt="fullstack">
-                        <div    class="text">Description8 </div>
-                    </div>
-                </div>
-            </div>
+    
+    </section>     
+    
+    <div class="main-sectionButton">
+        <button id="scroll-button">
+            Home
+        </button>
+    </div>
 
 <script src="./js/scroll.js"></script>
 
