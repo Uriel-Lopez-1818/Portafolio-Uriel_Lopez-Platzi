@@ -9,20 +9,12 @@
 
 .fixed-header {
      background-color: #150050;
-<<<<<<< HEAD
      transition: all 0.4s ease;
-=======
-     transition: all .4s ease;
->>>>>>> feture/scroll-dom
 }
 
 /* HEADER */
 
 header {
-<<<<<<< HEAD
-=======
-     position: relative;
->>>>>>> feture/scroll-dom
      position: fixed;
      background: transparent;
      background-color: #150050;
