@@ -7,13 +7,16 @@ const mainSection = document.getElementById("scroll-home")
 
 const linkItem = document.getElementsByClassName("item")
 
+//FUNCIONES 
+
+//Acceder a los elementos por clase
 
 for(let i = 0; i < linkItem.length; i++) {
     const element = linkItem[i];
     
     element.addEventListener("click", function(){
-        element[i].classList.remove("active")
-        element.classList.add("active")
+       
+           element.classList.add("active")
     })
 }
 
@@ -23,6 +26,8 @@ for(let i = 0; i < linkItem.length; i++) {
 
 
 //section of The Scroll-Header
+
+//Funcion para hacer un scroll hacia el home 
 
 function scrollHeeaderTop () {
     let offsetAbout = aboutSection.offsetTop - 200;
